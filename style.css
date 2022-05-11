@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@media screen and (max-width:1200px ) { 
+  body{
+    background-color:red;
+  }
+}
+
+body{
+padding: 0;
+margin: 0;
+}
+  
+nav{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background-color: white;
+  z-index: 99;
+}
+
+nav a{
+color: #fff;
+margin: auto 20px auto 40px;
+text-decoration: none;
+font-weight: bold;}
+
+
+
+  nav li {
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+  
+ 
+}
+
+h2{ margin: 50px;
+  border: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size:50px;
+
+}
+
+h3{font-family: Poppins;
+color: 	#1C1C1C;
+font-weight: bold;
+  font-size: 30px;
+  margin: 2px;}
+
+
+main.container {
+   background:linear-gradient(45deg,#B22222, 	#FA8072) ;
+   max-width: 1700px ;
+   /*min-height: 50vh;*/
+   padding: 20ren;
+   box-shadow: 5px, 5px, 15px, rgba(0,0,0 0.2);
+   margin: 20px;
+   margin-bottom:-155px;
+   height: 1300px ;
+   width: 1250px;
+}
+
+
+main h2 {
+   font-weight: 600;
+   margin: 20px;
+   position: center;
+
+}
+
+
+
+main h2::before {
+content: 'ㅤﾠㅤㅤㅤㅤㅤㅤㅤㅤㅤ';
+position: center;
+height: 8px;
+bottom: 10px;
+left: 0;
+border-radius: 8px;
+background: linear-gradient(45deg, #F0E68C, 	#DCDCDC );}
+
+#destaquesDeHoje{
+  position:static;
+  margin-top:-1170px;
+  margin-bottom:60px;
+  color: #1C1C1C;
+}
+
+
+main h1{
+     font-weight: 600;
+   margin: 20px;
+   ;
+}
+
+
+main h1::before {
+content: 'ㅤﾠㅤㅤㅤㅤㅤㅤㅤㅤㅤ';
+position: center;
+height: 8px;
+bottom: 10px;
+left: 0;
+border-radius: 8px;
+background: linear-gradient(45deg, gray, 	#DCDCDC );
+}
+
+
+/*---------------D E S T A Q U E S----------------------------------------------------------*/
+/*----------J O G O S   L A N Ç A M E N T O S.txt--------------*/
+#categoria1{
+  background-color:rgb(69, 90, 100);
+  color:#1C1C1C ;
+  font-size:32px ;
+  margin-left:120px ;
+  padding-left:100px;
+  padding-right:100px;
+  position: relative;
+  
+   
+
+}
+
+/*---------J O G O S  G R A T U I T O S.txt------------*/
+#categoria2{
+  background-color:rgb(37, 57, 66);
+  color:#1C1C1C ;
+  font-size:32px ;
+  padding-left:143px;
+  padding-right:147px;
+}
+
+/*-------------- F I L M E S  S É R I E S  E M  A L T A -------------------*/
+#categoria3{
+  background-color:rgb(216, 194, 102);
+  color:#1C1C1C ;
+  font-size:32px ;
+  margin-left:123px ;
+  padding-left:110px;
+  padding-right:95px;
+ }
+
+#categoria4{
+  background-color:white;
+  color:#1C1C1C ;
+  font-size:32px ;
+  padding-left:88px;
+  padding-right:80px;
+  max-width:600px ;
+  text-align:center;
+ }
+
+#categoria5{
+ background-color:rgb(214, 71, 66);
+  color:#1C1C1C ;
+  font-size:32px ;
+  margin-left:120px ;
+  padding-left:166px;
+  padding-right:185px;
+}
+
+#categoria6{
+  background-color:rgb(235, 163, 110);
+  color:#1C1C1C ;
+  font-size:32px ;
+  padding-left:143px;
+  padding-right:156px;
+}
+/*--------N O M E S-----------*/
+#nome1{
+
+  background-color:rgb(69, 90, 100);
+  border-top:1px solid black;
+  color:white;
+  font-size:20px;
+  max-width:150px ;
+  width: 150px;
+  text-align: center;
+  font-family: Poppins; 
+  
+}
+
+#nome2{
+  background-color:rgb(37, 57, 66);
+  border-top:1px solid black;
+  color:white;
+  font-size:20px;
+  max-width: 150px;
+  width: 150px;
+  text-align:center;
+  font-family: Poppins; 
+}
+
+#nome3{
+  background-color:rgb(216, 194, 102);
+  border-top:1px solid black;
+  color:white;
+  font-size:20px;
+  max-width: 150px;
+  width: 150px;
+  text-align:center;
+  font-family: Poppins; 
+}
+
+#nome4{
+  background-color:white;
+  border-top:1px solid black;
+  color:rgb(24, 22, 22);
+  font-size:20px;
+  max-width: 150px;
+  width: 150px;
+  text-align:center;
+  font-family: Poppins;  
+}
+
+#nome5{
+  background-color:rgb(214, 71, 66);
+  border-top:1px solid black;
+  color:white;
+  font-size:20px;
+  max-width: 150px;
+  width: 150px;
+  text-align:center;
+  font-family: Poppins; 
+}
+
+#nome6{
+  background-color:rgb(235, 163, 110);
+  border-top:1px solid black;
+  color:white;
+  font-size:20px;
+  max-width: 150px;
+  width: 150px;
+  text-align:center;
+  font-family: Poppins; 
+}
+
+
+/*--------- I M A G E N S ----------------*/
+#img1{
+  width: 150px;
+  height: 201px;
+  position:;
+  
+  
+  }
+
+
+.imagensFlexBox{
+  display:flex;
+  gap:42px;
+  margin-left:98px;
+  align-content: baseline;
+  position: absolute;
+  
+  
+}
+/*-----------------Z O O M------------------------------------------*/
+.zoom {
+  
+  overflow: hidden;
+
+}
+.zoom img {
+  
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+.zoom:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.zoomm{
+  position:relative;
+  overflow: hidden;
+}
+
+.zoomm h1{
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.zoomm:hover h1 {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+   }
+/*-----------------------------------------------------------------------------------------*/
+
+.imagensFlexBox2{
+  display:flex;
+  gap:42px;
+  margin-left:66px;
+  align-content:;
+}
+
+}
+
+.flexBoxPai{
+  display: flex;
+  
+}
+
+.categoriasFlexBox{
+  display:flex;
+  align-items: stretch;
+  justify-content:space-evenly;
+  margin-left: -25px;
+  margin-top:250px;
+  gap:110px;
+ }
+
+.nomesFlexBox{
+  display:flex;
+  gap:42px;
+  margin-left:98px;
+  align-items:stretch;
+  flex-wrap:rap;
+  
+  
+   }
+
+  .nomesFlexBox2{
+  display:flex;
+  gap:42px;
+  margin-left:66px;
+ 
+ 
+}
+.absolute{
+ margin-left:13%;
+ position:absolute;
+}
+.divCategorias{
+
+  margin-top:-358px;
+ 
+
+
+/*----------------------------------------------------------------*/
+
+
+   
+.menu ul li {
+background: linear-gradient();
+color: #fff;
+float: left;
+width: 2000px;
+height: 40px;
+display: inline-block;
+text-align: center;
+line-height: 40px;
+font-size: 25px;
+position: relative;
+}
+
+.menu ul li:hover{
+background-color: gray;
+}
+
+.menu ul{
+  padding: 0
+}
+
+.menu ul ul{
+  display: none
+}
+
+.menu ul li:hover > ul{
+display: block
+}
+
+.menu ul ul ul{
+  margin-left: 205px;
+  top: 0px;
+position: absolute
+}
+
+.menu ul ul li:hover{
+background-color:  gray;
+}
+
+.menu ul ul ul li:hover{
+  background-color: gray;
+}
+
+.menu a{
+  color: red;
+  text-decoration: none
+}
+
+
